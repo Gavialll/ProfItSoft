@@ -8,19 +8,19 @@ Block 2
 * Опціонально (на макс. бал): зробити так, щоб форматування вихідного файла повторювало форматування вхідного файлу (мабуть, xml-парсер в такому разі тут не підійде).
 
 Приклад вхідного файлу:
-//<persons>
-//   <person name="Іван" surname="Котляревський" birthDate="09.09.1769" />
-//   <person surname="Шевченко" name="Тарас" birthDate="09.03.1814" />
-//   <person
-//      birthData="27.08.1856"
-//      name = "Іван"
-//      surname = "Франко" />
-//   <person name="Леся"
-//         surname="Українка"
-//
-//         birthData="13.02.1871" />
-//
-//</persons>
+//<persons>\n
+//   <person name="Іван" surname="Котляревський" birthDate="09.09.1769" />\n
+//   <person surname="Шевченко" name="Тарас" birthDate="09.03.1814" />\n
+//   <person\n
+//      birthData="27.08.1856"\n
+//      name = "Іван"n\
+//      surname = "Франко"> \n
+//   <person name="Леся"\n
+//         surname="Українка"\n
+//\n
+//         birthData="13.02.1871" />\n
+//\n
+//</persons>\n
 
 
 Приклад вихідного файлу:
