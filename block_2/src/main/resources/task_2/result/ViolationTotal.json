@@ -1,0 +1,22 @@
+[
+{
+	"type": "ALCOHOL",
+	"total" : "30000.0"
+},
+{
+	"type": "RED_LIGHT",
+	"total" : "1500.0"
+},
+{
+	"type": "NO_LIGHT",
+	"total" : "1500.0"
+},
+{
+	"type": "PARKING",
+	"total" : "1350.0"
+},
+{
+	"type": "SPEEDING",
+	"total" : "1020.0"
+}
+]

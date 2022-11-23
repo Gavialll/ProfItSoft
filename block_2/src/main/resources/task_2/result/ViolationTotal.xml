@@ -1,0 +1,7 @@
+<violations>
+	<violation type="ALCOHOL" total="30000.0"/>
+	<violation type="RED_LIGHT" total="1500.0"/>
+	<violation type="NO_LIGHT" total="1500.0"/>
+	<violation type="PARKING" total="1350.0"/>
+	<violation type="SPEEDING" total="1020.0"/>
+</violations>
