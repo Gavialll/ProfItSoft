@@ -1,16 +1,16 @@
 package task_2;
 
+import com.fasterxml.jackson.databind.MapperFeature;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import task_1.Action;
-import task_2.parser.ToJSON;
-import task_2.parser.ToXML;
-import task_2.parser.Write;
 
 import static task_1.Action.VALUE;
 
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
@@ -44,31 +44,30 @@ public class Run {
 
         File[] fileList = new File("block_2/src/main/resources/task_2").listFiles();
 
-        List<Violation> violations = countViolationByType(fileList)
-                .entrySet()
-                .stream()
-                .map(Violation::newInstance)
-                .sorted()
-                .collect(Collectors.toList());
+        List<Violation> violations = countViolationByType(fileList).entrySet().stream().map(Violation::newInstance).sorted().collect(Collectors.toList());
 
         File outputFileXML = new File("block_2/src/main/resources/task_2/result/ViolationTotal.xml");
         File outputFileJSON = new File("block_2/src/main/resources/task_2/result/ViolationTotal.json");
 
-        List<ToXML> usersXML = new ArrayList<>(violations);
-        List<ToJSON> usersJSON = new ArrayList<>(violations);
+        ObjectMapper objectMapper = new ObjectMapper();
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT)
+                    .writeValue(outputFileJSON, violations);
 
-        Write.JSON(outputFileJSON, usersJSON);
-        Write.XML(outputFileXML, usersXML);
+        XmlMapper xmlMapper = new XmlMapper();
+        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT)
+                 .writeValue(outputFileXML, violations);
     }
+
 
     /**
      * <p> Read list of "JSON" files and count violation by type.
      * <p>
+     *
      * @param files List of file for reading
      * @return Map&#60String, Double&#62, key = type of violation, value = sum violations
      * @throws FileNotFoundException
      */
-    public static Map<String, Double> countViolationByType(File[] files) throws FileNotFoundException{
+    public static Map<String, Double> countViolationByType(File[] files) throws FileNotFoundException {
         Map<String, Double> map = new HashMap<>();
 
         for(File file : files) {
@@ -107,9 +106,9 @@ public class Run {
      *  {@link task_1.Action}.VALUE   return String = "<i>value</i>"
      * </pre>
      *
-     * @param json One JSON object
+     * @param json      One JSON object
      * @param fieldName Attribute name
-     * @param action Enum for choose action
+     * @param action    Enum for choose action
      * @return String
      */
     public static String getField(String json, String fieldName, Action action) {

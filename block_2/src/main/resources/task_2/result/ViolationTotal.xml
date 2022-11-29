@@ -1,7 +1,22 @@
-<violations>
-	<violation type="ALCOHOL" total="30000.0"/>
-	<violation type="RED_LIGHT" total="1500.0"/>
-	<violation type="NO_LIGHT" total="1500.0"/>
-	<violation type="PARKING" total="1350.0"/>
-	<violation type="SPEEDING" total="1020.0"/>
-</violations>
+<ArrayList>
+  <item>
+    <type>ALCOHOL</type>
+    <total>20000.0</total>
+  </item>
+  <item>
+    <type>RED_LIGHT</type>
+    <total>1000.0</total>
+  </item>
+  <item>
+    <type>NO_LIGHT</type>
+    <total>1000.0</total>
+  </item>
+  <item>
+    <type>PARKING</type>
+    <total>900.0</total>
+  </item>
+  <item>
+    <type>SPEEDING</type>
+    <total>680.0</total>
+  </item>
+</ArrayList>

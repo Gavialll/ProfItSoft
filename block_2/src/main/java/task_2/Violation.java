@@ -1,12 +1,15 @@
 package task_2;
 
-import task_2.parser.ToJSON;
-import task_2.parser.ToXML;
+import com.fasterxml.jackson.annotation.JsonValue;
+import com.fasterxml.jackson.annotation.JsonView;
+
 import java.util.Map;
 import java.util.Objects;
 
-public class Violation implements ToJSON, ToXML, Comparable<Violation> {
+public class Violation implements Comparable<Violation> {
+    @JsonView(Violation.class)
     private String type;
+    @JsonView(Violation.class)
     private double total;
 
     public static Violation newInstance(Map.Entry<String, Double> entry){
@@ -27,14 +30,8 @@ public class Violation implements ToJSON, ToXML, Comparable<Violation> {
         return this;
     }
 
-    @Override
-    public String toXML() {
-        return "<violation type=\""+ type +"\" total=\""+ total +"\"/>";
-    }
-
-    @Override
-    public String toJSON() {
-        return String.format("{\n\t\"type\": \"%s\",\n\t\"total\" : \"%s\"\n}", type,total);
+    public String getType() {
+        return type;
     }
 
     @Override
