@@ -1,6 +1,5 @@
 package task_2;
 
-import com.fasterxml.jackson.databind.MapperFeature;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -8,13 +7,13 @@ import task_1.Action;
 
 import static task_1.Action.VALUE;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.File;
+import java.io.BufferedReader;
+import java.io.FileReader;
 import java.util.List;
 import java.util.Map;
 import java.util.HashMap;
-import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
@@ -44,7 +43,12 @@ public class Run {
 
         File[] fileList = new File("block_2/src/main/resources/task_2").listFiles();
 
-        List<Violation> violations = countViolationByType(fileList).entrySet().stream().map(Violation::newInstance).sorted().collect(Collectors.toList());
+        List<Violation> violations = countViolationByType(fileList)
+                .entrySet()
+                .stream()
+                .map(Violation::newInstance)
+                .sorted()
+                .collect(Collectors.toList());
 
         File outputFileXML = new File("block_2/src/main/resources/task_2/result/ViolationTotal.xml");
         File outputFileJSON = new File("block_2/src/main/resources/task_2/result/ViolationTotal.json");
@@ -65,20 +69,24 @@ public class Run {
      *
      * @param files List of file for reading
      * @return Map&#60String, Double&#62, key = type of violation, value = sum violations
-     * @throws FileNotFoundException
+     * @throws IOException
      */
-    public static Map<String, Double> countViolationByType(File[] files) throws FileNotFoundException {
+    public static Map<String, Double> countViolationByType(File[] files) throws IOException {
         Map<String, Double> map = new HashMap<>();
 
         for(File file : files) {
             if(file.isFile()) {
-                try(Scanner scanner = new Scanner(file)) {
-                    scanner.useDelimiter("\\}\\s*\\,*");
-                    while(scanner.hasNext()) {
-                        String json = scanner.next();
-                        if(json.contains("{")) {
-                            String key = getField(json, "type", VALUE);
-                            String value = getField(json, "fine_amount", VALUE);
+                try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
+                    Pattern pattern = Pattern.compile("\\}\\s*\\,*");
+                    StringBuilder tempJson = new StringBuilder();
+                    String textLine = bufferedReader.readLine();
+
+                    while(textLine != null) {
+                        Matcher matcher = pattern.matcher(tempJson);
+
+                        if(matcher.find()) {
+                            String key = getField(tempJson.toString(), "type", VALUE);
+                            String value = getField(tempJson.toString(), "fine_amount", VALUE);
 
                             if(map.containsKey(key)) {
                                 double oldValue = map.get(key);
@@ -87,8 +95,14 @@ public class Run {
                             } else {
                                 map.put(key, Double.parseDouble(value));
                             }
+                            tempJson.setLength(0);
+                        } else {
+                            tempJson.append(textLine);
                         }
+                        textLine = bufferedReader.readLine();
                     }
+                } catch(IOException exception) {
+                    throw new IOException(exception.getMessage());
                 }
             }
         }

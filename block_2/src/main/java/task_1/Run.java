@@ -1,10 +1,10 @@
 package task_1;
 
-
-import java.io.FileWriter;
 import java.io.IOException;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.File;
-import java.util.Scanner;
 
 /**
 1. Розробити програму, яка на вхід отримує xml-файл з тегами <person>, в яких є атрибути name і surname.
@@ -45,27 +45,34 @@ public class Run {
     public static void main(String[] args) throws IOException {
         long startTime = System.nanoTime();
 
-        File fromFile = new File("block_2/src/main/resources/task_1/Persons.xml");
+        File fromFile = new File("block_2/src/main/resources/task_1/test.xml");
         File toFile = new File("block_2/src/main/resources/task_1/PersonsUpdate.xml");
 
         toFile.delete();
 
-        try(Scanner scanner = new Scanner(fromFile);
+        try(BufferedReader bufferedReader = new BufferedReader(new FileReader(fromFile));
             FileWriter fileWriter = new FileWriter(toFile, true)) {
 
-            scanner.useDelimiter("\\/>");
+            StringBuilder tempXml = new StringBuilder();
+            String textLine = bufferedReader.readLine();
 
-            while(scanner.hasNext()) {
-                String xmlObject = scanner.next();
-                if(xmlObject.contains("<person")) {
-                    String xml = new XML(xmlObject)
+            while(textLine != null) {
+                if(tempXml.toString().contains("<person") && tempXml.toString().contains("/>")) {
+                    String xml = new XML(tempXml.toString())
                             .joinFields("name", "surname", "name")
                             .getXml();
-
-                    fileWriter.write( xml + "/>");
+                    fileWriter.write(xml);
+                    tempXml.setLength(0);
+                } else {
+                    tempXml.append(textLine).append("\n");
+                    textLine = bufferedReader.readLine();
                     continue;
                 }
-                fileWriter.write(xmlObject);
+
+                tempXml.append(textLine).append("\n");
+                textLine = bufferedReader.readLine();
+
+                if(textLine == null) fileWriter.write(tempXml.toString());
             }
         }
 
