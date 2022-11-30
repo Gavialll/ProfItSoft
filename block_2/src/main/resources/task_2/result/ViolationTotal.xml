@@ -1,4 +1,12 @@
-<ArrayList>
+<LinkedList>
+  <item>
+    <type>PARKING</type>
+    <total>900.0</total>
+  </item>
+  <item>
+    <type>SPEEDING</type>
+    <total>680.0</total>
+  </item>
   <item>
     <type>ALCOHOL</type>
     <total>20000.0</total>
@@ -11,12 +19,4 @@
     <type>NO_LIGHT</type>
     <total>1000.0</total>
   </item>
-  <item>
-    <type>PARKING</type>
-    <total>900.0</total>
-  </item>
-  <item>
-    <type>SPEEDING</type>
-    <total>680.0</total>
-  </item>
-</ArrayList>
+</LinkedList>

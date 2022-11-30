@@ -1,4 +1,10 @@
 [ {
+  "type" : "PARKING",
+  "total" : 900.0
+}, {
+  "type" : "SPEEDING",
+  "total" : 680.0
+}, {
   "type" : "ALCOHOL",
   "total" : 20000.0
 }, {
@@ -7,10 +13,4 @@
 }, {
   "type" : "NO_LIGHT",
   "total" : 1000.0
-}, {
-  "type" : "PARKING",
-  "total" : 900.0
-}, {
-  "type" : "SPEEDING",
-  "total" : 680.0
 } ]

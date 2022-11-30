@@ -1,6 +1,5 @@
 package task_2;
 
-import com.fasterxml.jackson.annotation.JsonValue;
 import com.fasterxml.jackson.annotation.JsonView;
 
 import java.util.Map;

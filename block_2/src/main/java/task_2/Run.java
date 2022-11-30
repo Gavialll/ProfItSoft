@@ -1,22 +1,16 @@
 package task_2;
 
+import com.fasterxml.jackson.core.JsonFactory;
+import com.fasterxml.jackson.core.JsonParser;
+import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import task_1.Action;
 
-import static task_1.Action.VALUE;
-
-import java.io.IOException;
 import java.io.File;
-import java.io.BufferedReader;
-import java.io.FileReader;
+import java.io.IOException;
+import java.util.LinkedList;
 import java.util.List;
-import java.util.Map;
-import java.util.HashMap;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-import java.util.stream.Collectors;
 
 /**
  * <p>2.  У папці є перелік текстових файлів, кожен із яких є "зліпок" БД порушень правил дорожнього руху
@@ -40,98 +34,50 @@ import java.util.stream.Collectors;
 public class Run {
 
     public static void main(String[] args) throws IOException {
-
         File[] fileList = new File("block_2/src/main/resources/task_2").listFiles();
 
-        List<Violation> violations = countViolationByType(fileList)
-                .entrySet()
-                .stream()
-                .map(Violation::newInstance)
-                .sorted()
-                .collect(Collectors.toList());
+        List<Violation> violations = new LinkedList<>();
+        for(File file : fileList) {
+            if(file.isFile()) {
+                JsonFactory jFactory = new JsonFactory();
+                try(JsonParser jParser = jFactory.createParser(file)) {
+                    while(jParser.nextToken() != JsonToken.END_ARRAY) {
+                        Violation violation = new Violation();
+                        while(jParser.nextToken()!= JsonToken.END_OBJECT) {
+                            String fieldName = jParser.getCurrentName();
+                            if("fine_amount".equals(fieldName)) {
+                                jParser.nextToken();
+                                violation.setTotal(jParser.getDoubleValue());
+                            }
+                            if("type".equals(fieldName)) {
+                                jParser.nextToken();
+                                violation.setType(jParser.getText());
+                            }
+                        }
+                        Violation oldViolation = violations
+                                .stream()
+                                .filter(v -> v.getType().equals(violation.getType()))
+                                .findFirst()
+                                .orElse(null);
+
+                        if(oldViolation == null) {
+                            violations.add(violation);
+                        } else {
+                            double newTotal = oldViolation.getTotal() + violation.getTotal();
+                            oldViolation.setTotal(newTotal);
+                        }
+                    }
+                }
+            }
+        }
 
         File outputFileXML = new File("block_2/src/main/resources/task_2/result/ViolationTotal.xml");
         File outputFileJSON = new File("block_2/src/main/resources/task_2/result/ViolationTotal.json");
 
         ObjectMapper objectMapper = new ObjectMapper();
-        objectMapper.enable(SerializationFeature.INDENT_OUTPUT)
-                    .writeValue(outputFileJSON, violations);
+        objectMapper.enable(SerializationFeature.INDENT_OUTPUT).writeValue(outputFileJSON, violations);
 
         XmlMapper xmlMapper = new XmlMapper();
-        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT)
-                 .writeValue(outputFileXML, violations);
-    }
-
-
-    /**
-     * <p> Read list of "JSON" files and count violation by type.
-     * <p>
-     *
-     * @param files List of file for reading
-     * @return Map&#60String, Double&#62, key = type of violation, value = sum violations
-     * @throws IOException
-     */
-    public static Map<String, Double> countViolationByType(File[] files) throws IOException {
-        Map<String, Double> map = new HashMap<>();
-
-        for(File file : files) {
-            if(file.isFile()) {
-                try(BufferedReader bufferedReader = new BufferedReader(new FileReader(file))) {
-                    Pattern pattern = Pattern.compile("\\}\\s*\\,*");
-                    StringBuilder tempJson = new StringBuilder();
-                    String textLine = bufferedReader.readLine();
-
-                    while(textLine != null) {
-                        Matcher matcher = pattern.matcher(tempJson);
-
-                        if(matcher.find()) {
-                            String key = getField(tempJson.toString(), "type", VALUE);
-                            String value = getField(tempJson.toString(), "fine_amount", VALUE);
-
-                            if(map.containsKey(key)) {
-                                double oldValue = map.get(key);
-                                double newValue = Double.parseDouble(value) + oldValue;
-                                map.replace(key, newValue);
-                            } else {
-                                map.put(key, Double.parseDouble(value));
-                            }
-                            tempJson.setLength(0);
-                        } else {
-                            tempJson.append(textLine);
-                        }
-                        textLine = bufferedReader.readLine();
-                    }
-                } catch(IOException exception) {
-                    throw new IOException(exception.getMessage());
-                }
-            }
-        }
-        return map;
-    }
-
-    /**
-     * <p>Method take one attribute from "JSON"
-     *
-     * <p>Method can return part of field or all field,
-     * You can choose action for choose part of field.
-     * <pre>
-     *  {@link task_1.Action}.ALL_ROW return String = "<i>name : "value"</i>
-     *  {@link task_1.Action}.KEY     return String = "<i>name</i>"
-     *  {@link task_1.Action}.VALUE   return String = "<i>value</i>"
-     * </pre>
-     *
-     * @param json      One JSON object
-     * @param fieldName Attribute name
-     * @param action    Enum for choose action
-     * @return String
-     */
-    public static String getField(String json, String fieldName, Action action) {
-        Pattern pattern = Pattern.compile("\\s*\\\"(" + fieldName + ")\\\"\\s*:\\s*\\\"*([А-я|A-z|іІїЇ.,|0-9]*)\\\"*");
-
-        Matcher matcher = pattern.matcher(json);
-        if(matcher.find()) {
-            return matcher.group(action.getValue()).trim().replaceAll("\"", "");
-        }
-        throw new IllegalArgumentException("Field with name = \"" + fieldName + "\" not found");
+        xmlMapper.enable(SerializationFeature.INDENT_OUTPUT).writeValue(outputFileXML, violations);
     }
 }
