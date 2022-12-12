@@ -1,457 +1,4363 @@
 [ {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
   "firstName" : "Ivan",
   "lastName" : "Mon",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Mon",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Ivan",
   "lastName" : "Sun",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Sun",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Igor",
   "lastName" : "Wen",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Wen",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Andrii",
-  "lastName" : "Tue",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
   "lastName" : "Mon",
   "type" : "ALCOHOL",
   "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Taras",
   "lastName" : "Tue",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Tue",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Taras",
   "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Wen",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Wen",
   "type" : "RED_LIGHT",
   "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Tue",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Tue",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Mon",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Wen",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Tue",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Tue",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Tue",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Tue",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Sun",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Ivan",
-  "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Tue",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Tue",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Wen",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Tue",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Wen",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "ALCOHOL",
-  "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Wen",
-  "type" : "RED_LIGHT",
-  "fineAmount" : 500.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Igor",
-  "lastName" : "Mon",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Ivan",
   "lastName" : "Sun",
   "type" : "SPEEDING",
   "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Andrii",
-  "lastName" : "Sun",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
-  "firstName" : "Ivan",
-  "lastName" : "Mon",
+  "firstName" : "Taras",
+  "lastName" : "Sun",
   "type" : "ALCOHOL",
   "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
-  "firstName" : "Taras",
+  "firstName" : "Igor",
   "lastName" : "Mon",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
-  "firstName" : "Taras",
+  "firstName" : "Igor",
   "lastName" : "Sun",
-  "type" : "NO_LIGHT",
-  "fineAmount" : 340.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Ivan",
   "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
   "type" : "ALCOHOL",
   "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Igor",
   "lastName" : "Tue",
   "type" : "SPEEDING",
   "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Taras",
   "lastName" : "Tue",
   "type" : "SPEEDING",
   "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Ivan",
   "lastName" : "Tue",
   "type" : "SPEEDING",
   "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
-}, {
-  "firstName" : "Taras",
-  "lastName" : "Sun",
-  "type" : "SPEEDING",
-  "fineAmount" : 550.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
 }, {
   "firstName" : "Andrii",
   "lastName" : "Wen",
   "type" : "ALCOHOL",
   "fineAmount" : 10000.0,
-  "dateTime" : "2022-12-09 00:09:16"
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Wen",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Igor",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Wen",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Tue",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Tue",
+  "type" : "ALCOHOL",
+  "fineAmount" : 10000.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Taras",
+  "lastName" : "Mon",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Wen",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Tue",
+  "type" : "PARKING",
+  "fineAmount" : 450.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Ivan",
+  "lastName" : "Sun",
+  "type" : "SPEEDING",
+  "fineAmount" : 550.0,
+  "dateTime" : "2022-12-12 14:51:31"
+}, {
+  "firstName" : "Andrii",
+  "lastName" : "Mon",
+  "type" : "RED_LIGHT",
+  "fineAmount" : 500.0,
+  "dateTime" : "2022-12-12 14:51:31"
 } ]

@@ -1,13 +1,13 @@
 [ {
   "type" : "ALCOHOL",
-  "total" : 940000.0
+  "total" : 3370000.0
 }, {
   "type" : "SPEEDING",
-  "total" : 41250.0
+  "total" : 176000.0
 }, {
   "type" : "RED_LIGHT",
-  "total" : 41000.0
+  "total" : 172500.0
 }, {
-  "type" : "NO_LIGHT",
-  "total" : 27880.0
+  "type" : "PARKING",
+  "total" : 139500.0
 } ]

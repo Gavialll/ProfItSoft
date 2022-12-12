@@ -8,20 +8,22 @@ import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import org.junit.platform.commons.function.Try;
 import task_1.helper.database.FileService;
 import task_1.helper.Timer;
 
 import java.io.File;
 import java.io.IOException;
 import java.math.BigDecimal;
+import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ExecutorService;
 import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.Executors;
 import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.ExecutorService;
 import java.util.stream.Collectors;
 
 /**
@@ -36,8 +38,11 @@ import java.util.stream.Collectors;
  * Результати порівняння прикласти коментарем до викононаго завдання.
  */
 public class Run {
-    public static void main(String[] args) throws IOException, InterruptedException {
-        ThreadPoolExecutor executorService = (ThreadPoolExecutor) Executors.newFixedThreadPool(2);
+    public static Path directoryPath = Path.of(DIRECTORY_PATH.getPath());
+    public static Path resultPath = Path.of(RESULT_PATH.getPath());
+
+    public static void main(String[] args) throws InterruptedException {
+        ThreadPoolExecutor executorService = (ThreadPoolExecutor) Executors.newFixedThreadPool(8);
 
         FileService fileService = new FileService(executorService);
 
@@ -45,33 +50,33 @@ public class Run {
         fileService.clearDirectory(DIRECTORY_PATH);
 
         //Create new files with violations
-        fileService.createFiles(50, 1_000_000, DIRECTORY_PATH);
+        fileService.createFiles(4, 1000, DIRECTORY_PATH);
 
         Timer timer = Timer.start();
 
-        File[] files = new File(DIRECTORY_PATH.getPath()).listFiles();
+        File[] files = directoryPath.toFile().listFiles();
 
         var futures = createTasks(files, executorService);
 
-        var listViolations = CompletableFuture
+         CompletableFuture
                 .allOf(futures)
                 .thenApply(v -> Arrays.stream(futures)
                             .map(CompletableFuture::join)
                             .flatMap(List::stream)
                             .collect(Collectors.toList()))
                 .thenApply(Run::margeViolations)
-                .thenApply(s -> s.stream()
+                .thenApply(list -> list.stream()
                         .sorted(Comparator.reverseOrder())
                         .collect(Collectors.toList()))
-                .join();
-
-        new ObjectMapper()
-                .enable(SerializationFeature.INDENT_OUTPUT)
-                .writeValue(new File(RESULT_PATH.getPath()), listViolations);
+                .thenAccept(listViolation -> Try.call(() -> {
+                    new ObjectMapper()
+                        .enable(SerializationFeature.INDENT_OUTPUT)
+                        .writeValue(resultPath.toFile(), listViolation);
+                    System.out.println(timer.stop());
+                    return true;
+                }));
 
         executorService.shutdown();
-
-        System.out.println(timer.stop());
     }
 
     @SuppressWarnings("All")
@@ -107,8 +112,12 @@ public class Run {
             try(JsonParser jParser = jFactory.createParser(file)) {
                 while(jParser.nextToken() != JsonToken.END_ARRAY) {
                     ViolationTotal violationTotal = new ViolationTotal();
-                    while(jParser.nextToken() != JsonToken.END_OBJECT) {
+                    JsonToken token = jParser.nextToken();
+                    while(token  != JsonToken.END_OBJECT) {
                         String fieldName = jParser.getCurrentName();
+
+                        if(token == null) return new ArrayList<>();
+
                         if("fineAmount".equals(fieldName)) {
                             jParser.nextToken();
                             violationTotal.setTotal(jParser.getDecimalValue());
@@ -117,18 +126,20 @@ public class Run {
                             jParser.nextToken();
                             violationTotal.setType(jParser.getText());
                         }
+                        token = jParser.nextToken();
                     }
-                    ViolationTotal oldViolationTotal = violationTotals
-                            .stream().filter(v -> v.getType().equals(violationTotal.getType()))
-                            .findFirst()
-                            .orElse(null);
+                        ViolationTotal oldViolationTotal = violationTotals
+                                .stream()
+                                .filter(v -> v.getType().equals(violationTotal.getType()))
+                                .findFirst()
+                                .orElse(null);
 
-                    if(oldViolationTotal == null) {
-                        violationTotals.add(violationTotal);
-                    } else {
-                        BigDecimal newTotal = oldViolationTotal.getTotal().add(violationTotal.getTotal());
-                        oldViolationTotal.setTotal(newTotal);
-                    }
+                        if(oldViolationTotal == null) {
+                            violationTotals.add(violationTotal);
+                        } else {
+                            BigDecimal newTotal = oldViolationTotal.getTotal().add(violationTotal.getTotal());
+                            oldViolationTotal.setTotal(newTotal);
+                        }
                 }
             } catch(IOException e) {
                 e.printStackTrace();

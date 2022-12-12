@@ -20,6 +20,7 @@ import java.util.stream.Collectors;
 public class FileService {
     private ExecutorService executor;
 
+    @SuppressWarnings("All")
     public List<File> createFiles(int numberOfFiles, int rangeOfViolations, Path path) throws InterruptedException {
         List<Callable<File>> tasks = createTasks(numberOfFiles, rangeOfViolations, path.getPath());
 
@@ -30,6 +31,7 @@ public class FileService {
                 .collect(Collectors.toList());
     }
 
+    @SuppressWarnings("All")
     public void clearDirectory(Path path){
         Arrays.stream(Objects.requireNonNull(new File(path.getPath()).listFiles())).forEach(File::delete);
     }
