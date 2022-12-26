@@ -20,7 +20,9 @@ public class CreateFactory {
     @SneakyThrows
     public static<T> T loadFromProperty(Class<T> clazz, Path propertiesPath){
         Properties properties = new Properties();
-        properties.load(new FileReader(propertiesPath.toFile()));
+        FileReader fileReader = new FileReader(propertiesPath.toFile());
+        properties.load(fileReader);
+        fileReader.close();
 
         ClassService<T> classService = new ClassService<>(clazz, properties);
 
@@ -113,6 +115,7 @@ public class CreateFactory {
                 String newDateString;
 
                 SimpleDateFormat sdf = new SimpleDateFormat(format);
+
                 Date d = sdf.parse(date);
                 sdf.applyPattern(NEW_FORMAT);
                 newDateString = sdf.format(d);

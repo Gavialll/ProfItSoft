@@ -11,7 +11,7 @@ class LoadFromProperties {
     private String stringProperty;
     @Property(name = "numberProperty")
     private int myNumber;
-    @Property(format = "dd.MM.yyyy HH:mm:ss")
+    @Property(format = "dd.MM.yyyy")
     private Instant timeProperty;
 
     public void setStringProperty(String stringProperty) {

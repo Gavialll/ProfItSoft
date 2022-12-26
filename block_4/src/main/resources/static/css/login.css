@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    border: 1px solid;
+    display: flex;
+    border-radius: 30px;
+    padding: 30px;
+    height: 200px;
+    flex-direction: column;
+    width: max-content;
+    justify-content: space-between;
+}
+
+.Log_in{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Times New Roman", serif;
+}
+
+input[type=email]{
+    border-radius: 30px;
+    height: 35px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid;
+    outline:none;
+}
+
+input[type = email]:focus{
+    transition: 0.5s;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 10px grey;
+}
+
+input[type = password]{
+    border-radius: 30px;
+    height: 35px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid;
+    outline:none;
+}
+
+input[type = password]:focus{
+    transition: 0.5s;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 10px grey;
+}
+
+input[type = submit]{
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 35px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid;
+    outline:none;
+}
+input[type = submit]:hover{
+    transition: 0.5s;
+    border: 1px solid gray;
+    box-shadow: 0px 1px 10px grey;
+}
