@@ -4,6 +4,7 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.validation.ConstraintViolationException;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
@@ -31,6 +32,13 @@ public class globalExceptionHandler {
             return buildErrorResponse(HttpStatus.BAD_REQUEST, e
                     .getMessage());
         }
+
+        @ExceptionHandler(EmptyResultDataAccessException.class)
+        protected ResponseEntity<Object> handleConstraintViolationException(EmptyResultDataAccessException e) {
+            return buildErrorResponse(HttpStatus.NOT_FOUND, e
+                .getMessage());
+        }
+
 
         @ExceptionHandler(NoSuchElementException.class)
         protected ResponseEntity<Object> handleNoSuchElementException(NoSuchElementException e) {

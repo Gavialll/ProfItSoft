@@ -1,3 +1,0 @@
-2023-01-04 12:33:40 jdbc[13]: exception
-org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select * from person limit 2 [*]2"; SQL statement:
-select * from person limit 2 2 [42000-214]

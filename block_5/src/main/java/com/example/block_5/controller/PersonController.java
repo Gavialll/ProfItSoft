@@ -1,7 +1,9 @@
 package com.example.block_5.controller;
 
+import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.PersonSaveDto;
 import com.example.block_5.dto.PersonSearchDto;
+import com.example.block_5.mapper.Map;
 import com.example.block_5.model.Person;
 import com.example.block_5.repository.PersonRepository;
 import com.example.block_5.service.PersonService;
@@ -14,6 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/person")
@@ -22,11 +25,8 @@ public class PersonController {
     @Autowired
     private PersonService personService;
 
-    @Autowired
-    private PersonRepository personRepository;
-
     @GetMapping
-    public List<Person> getPage(
+    public List<PersonInfoDto> getPage(
             @Min(value = 0, message = "min value 0")
             @RequestParam("from")
             long from,
@@ -38,20 +38,22 @@ public class PersonController {
     }
 
     @PostMapping("/_search")
-    public List<Person> search(
-            @RequestBody PersonSearchDto personSearchDto,
+    public List<PersonInfoDto> search(
+            @RequestBody
+            PersonSearchDto personSearchDto,
             @Min(value = 0, message = "min value 0")
-            @RequestParam("page")
-            int page,
+            @RequestParam("from")
+            int from,
             @Min(value = 0, message = "min value 0")
             @RequestParam("size")
             int size
     ){
-        return personRepository
-                .findAllByNameAndProfessionName
-                        (personSearchDto.getName(),
-                         personSearchDto.getProfessionName(),
-                         PageRequest.of(page,size));
+        return personService.search(
+                personSearchDto.getName(),
+                personSearchDto.getProfessionName(),
+                from,
+                size
+        );
     }
 
     @PostMapping
@@ -61,7 +63,7 @@ public class PersonController {
     }
 
     @GetMapping("/{id}")
-    public Person get(@PathVariable Long id){
+    public PersonInfoDto get(@PathVariable Long id){
         return personService.get(id);
     }
 
