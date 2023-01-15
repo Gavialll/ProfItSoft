@@ -2,17 +2,12 @@ package com.example.block_5.controller;
 
 import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.PersonSaveDto;
-import com.example.block_5.dto.PersonSearchDto;
 import com.example.block_5.mapper.Map;
 import com.example.block_5.model.Person;
 import com.example.block_5.repository.PersonRepository;
 import com.example.block_5.repository.ProfessionRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.junit.jupiter.api.MethodOrderer;
-import org.junit.jupiter.api.Order;
-import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestMethodOrder;
-import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -21,18 +16,10 @@ import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.NoSuchElementException;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertThrows;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.post;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.delete;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
-import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.patch;
+import static org.junit.jupiter.api.Assertions.*;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @SpringBootTest
@@ -42,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @Transactional
 @AutoConfigureMockMvc
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class PersonControllerTest {
+class PersonCRUDControllerTest {
     @Autowired
     private PersonRepository personRepository;
     @Autowired
@@ -53,112 +40,8 @@ class PersonControllerTest {
     private MockMvc mockMvc;
 
     @Test
-    @Order(1)
-    @DisplayName("Search 'Person' by 'Name' and 'Profession'")
-    void search() throws Exception {
-        String json = mockMvc.perform(post("/api/person/_search?from=0&size=1")
-                        .content(objectMapper.writeValueAsString(new PersonSearchDto("Ivan", "Doctor")))
-                        .contentType(MediaType.APPLICATION_JSON)
-                )
-                .andExpect(status().isOk())
-                .andReturn()
-                .getResponse()
-                .getContentAsString();
-
-        List<PersonInfoDto> actual = objectMapper
-                .readValue(json, objectMapper.getTypeFactory().constructCollectionType(List.class, PersonInfoDto.class));
-        @SuppressWarnings("all")
-        List<PersonInfoDto> expected = List.of(
-                Map.mapToPersonInfo(
-                        personRepository.findById(1L).get()
-                )
-        );
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    @Order(2)
-    @DisplayName("Get first page of 'Person'")
-    void getPageOne() throws Exception {
-        // TODO: 12.01.2023 You must change it. You must get first page
-        long page = 0L;
-        long size = 10L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(page, size)))
-                .andExpect(status().isOk())
-                .andReturn()
-                .getResponse()
-                .getContentAsString();
-
-        List<PersonInfoDto> actual = objectMapper
-                .readValue(json, objectMapper.getTypeFactory().constructCollectionType(List.class, PersonInfoDto.class));
-        List<PersonInfoDto> expected = personRepository.findAll()
-                .stream()
-                .map(Map::mapToPersonInfo)
-                .collect(Collectors.toList());
-
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    @Order(3)
-    @DisplayName("Get second page of 'Person'")
-    void getPageTwo() throws Exception {
-        // TODO: 12.01.2023 You must change it. You must get second page
-        long page = 1L;
-        long size = 3L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(page, size)))
-                .andExpect(status().isOk())
-                .andReturn()
-                .getResponse()
-                .getContentAsString();
-
-        List<PersonInfoDto> actual = objectMapper
-                .readValue(json, objectMapper.getTypeFactory().constructCollectionType(List.class, PersonInfoDto.class));
-
-        @SuppressWarnings("all")
-        List<PersonInfoDto> expected = Stream.of(
-                personRepository.findById(2L).get(),
-                personRepository.findById(3L).get(),
-                personRepository.findById(4L).get()
-        ).map(Map::mapToPersonInfo)
-                .collect(Collectors.toList());
-
-        assertEquals(expected, actual);
-    }
-
-    @Test
-    @Order(4)
-    @DisplayName("Get page param: from = -1")
-    void getPageWithLessZeroThrowIllegalArgumentException() throws Exception {
-        long from = -1L;
-        long size = 1L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(from, size)))
-                .andExpect(status().isBadRequest())
-                .andReturn()
-                .getResponse()
-                .getContentAsString();
-
-        assertTrue(json.contains("getPage.from: min value 0"));
-    }
-
-    @Test
-    @Order(5)
-    @DisplayName("Get page param: size = -1")
-    void getPageSizeThrow() throws Exception {
-        Long from = 1L;
-        Long size = -1L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(from, size)))
-                .andExpect(status().isBadRequest())
-                .andReturn()
-                .getResponse()
-                .getContentAsString();
-
-        assertTrue(json.contains("getPage.size: min value 0"));
-    }
-
-    @Test
     @Sql("Profession.sql")
-    @Order(6)
+    @Order(1)
     @DisplayName("Add Person")
     void add() throws Exception {
         PersonSaveDto newPerson = new PersonSaveDto("Test", 45, "Doctor");
@@ -182,7 +65,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(7)
+    @Order(2)
     @DisplayName("Add Profession not found")
     void addThrow() throws Exception {
         PersonSaveDto newPerson = new PersonSaveDto("Test", 45, "Pam-Pam");
@@ -200,7 +83,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(8)
+    @Order(3)
     @DisplayName("Get Person")
     void getPerson() throws Exception {
         Long personId = 1L;
@@ -218,7 +101,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(9)
+    @Order(4)
     @DisplayName("Get Person not found")
     void getThrow() throws Exception {
         Long personId = 99999999L;
@@ -232,7 +115,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(10)
+    @Order(5)
     @DisplayName("Update Person")
     void update() throws Exception {
         //old person
@@ -260,7 +143,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(11)
+    @Order(6)
     @DisplayName("Update Person not found")
     void updateThrowPerson() throws Exception {
         String json = mockMvc.perform(patch("/api/person/99999999")
@@ -274,7 +157,7 @@ class PersonControllerTest {
         assertTrue(json.contains("Person with id: 99999999 not found"));
     }
     @Test
-    @Order(12)
+    @Order(7)
     @DisplayName("Update Profession not found")
     void updateThrowProfession() throws Exception {
         String json = mockMvc.perform(patch("/api/person/1")
@@ -295,7 +178,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(13)
+    @Order(8)
     @DisplayName("Delete Person")
     void deletePerson() throws Exception {
         String json = mockMvc.perform(delete("/api/person/1"))
@@ -310,7 +193,7 @@ class PersonControllerTest {
     }
 
     @Test
-    @Order(14)
+    @Order(9)
     @DisplayName("Delete Person not found")
     void deleteThrowPerson() throws Exception {
         String json = mockMvc.perform(delete("/api/person/99999999"))

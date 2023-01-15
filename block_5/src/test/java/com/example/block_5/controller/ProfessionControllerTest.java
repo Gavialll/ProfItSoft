@@ -1,6 +1,5 @@
 package com.example.block_5.controller;
 
-import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.ProfessionInfoDto;
 import com.example.block_5.mapper.Map;
 import com.example.block_5.repository.ProfessionRepository;
@@ -16,7 +15,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 

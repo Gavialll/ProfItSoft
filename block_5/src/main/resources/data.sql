@@ -5,8 +5,8 @@ insert into profession (id, name) values
 
 insert into person (id, name, age, profession_id)
 values
-    (1, 'Ivan', 25, 1),
-    (2, 'Taras', 35, 2),
-    (3, 'Roman', 48, 3),
-    (4, 'Semen', 20, 1),
-    (5, 'Ivan', 19, 1);
+    (default, 'Ivan', 25, 1),
+    (default, 'Taras', 35, 2),
+    (default, 'Roman', 48, 3),
+    (default, 'Semen', 20, 1),
+    (default, 'Ivan', 19, 1);
