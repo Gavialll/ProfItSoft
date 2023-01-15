@@ -1,6 +1,5 @@
 package com.example.block_5.repository;
 
-import com.example.block_5.model.Person;
 import com.example.block_5.model.Profession;
 import org.springframework.data.jpa.repository.JpaRepository;
 

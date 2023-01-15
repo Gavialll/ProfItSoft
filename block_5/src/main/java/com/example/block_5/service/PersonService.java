@@ -2,8 +2,6 @@ package com.example.block_5.service;
 
 import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.PersonSaveDto;
-import com.example.block_5.model.Person;
-import org.springframework.data.domain.PageRequest;
 
 import java.util.List;
 

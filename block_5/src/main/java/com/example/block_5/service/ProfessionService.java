@@ -6,6 +6,6 @@ import com.example.block_5.model.Profession;
 import java.util.List;
 
 public interface ProfessionService {
-    Profession getById(Long id);
+    Profession getByName(String id);
     List<ProfessionInfoDto> getAll();
 }

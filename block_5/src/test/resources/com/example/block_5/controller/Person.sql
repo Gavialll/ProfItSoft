@@ -1,5 +1,5 @@
-insert
-into person (id, name, age, profession_id)
+insert into person
+    (id, name, age, profession_id)
 values
     (1, 'Ivan', 25, 1),
     (2, 'Taras', 35, 2),

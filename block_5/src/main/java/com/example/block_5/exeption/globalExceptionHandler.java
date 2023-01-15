@@ -22,23 +22,20 @@ public class globalExceptionHandler {
 
         @ExceptionHandler(MethodArgumentNotValidException.class)
         protected ResponseEntity<Object> handleMethodArgumentNotValidException(MethodArgumentNotValidException e) {
-            return buildErrorResponse(HttpStatus.BAD_REQUEST, e
-                    .getBindingResult()
-                    .getFieldError()
-                    .getDefaultMessage());
+            return buildErrorResponse(HttpStatus.BAD_REQUEST,
+                    e.getBindingResult()
+                            .getFieldError()
+                            .getDefaultMessage());
         }
         @ExceptionHandler(ConstraintViolationException.class)
         protected ResponseEntity<Object> handleConstraintViolationException(ConstraintViolationException e) {
-            return buildErrorResponse(HttpStatus.BAD_REQUEST, e
-                    .getMessage());
+            return buildErrorResponse(HttpStatus.BAD_REQUEST, e.getMessage());
         }
 
         @ExceptionHandler(EmptyResultDataAccessException.class)
         protected ResponseEntity<Object> handleConstraintViolationException(EmptyResultDataAccessException e) {
-            return buildErrorResponse(HttpStatus.NOT_FOUND, e
-                .getMessage());
+            return buildErrorResponse(HttpStatus.NOT_FOUND, e.getMessage());
         }
-
 
         @ExceptionHandler(NoSuchElementException.class)
         protected ResponseEntity<Object> handleNoSuchElementException(NoSuchElementException e) {

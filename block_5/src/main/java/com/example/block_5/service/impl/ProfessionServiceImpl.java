@@ -26,8 +26,8 @@ public class ProfessionServiceImpl implements ProfessionService {
     }
 
     @Override
-    public Profession getById(Long id) {
-        return professionRepository.findById(id)
-                .orElseThrow(()-> new NoSuchElementException("Profession with id: %d not found".formatted(id)));
+    public Profession getByName(String name) {
+        return Optional.ofNullable(professionRepository.findByName(name))
+                .orElseThrow(()-> new NoSuchElementException("Profession with name: %s not found".formatted(name)));
     }
 }

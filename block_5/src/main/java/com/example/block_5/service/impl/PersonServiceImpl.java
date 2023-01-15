@@ -26,7 +26,7 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     public Long add(PersonSaveDto saveDto) {
-        Profession profession = professionService.getById(saveDto.getProfessionId());
+        Profession profession = professionService.getByName(saveDto.getProfessionName());
         Person person = Person.builder()
                 .name(saveDto.getName())
                 .age(saveDto.getAge())
@@ -44,8 +44,7 @@ public class PersonServiceImpl implements PersonService {
 
     @Override
     public Long update(Long id, PersonSaveDto saveDto) {
-        Profession profession = professionService.getById(saveDto.getProfessionId());
-        System.out.println(saveDto);
+        Profession profession = professionService.getByName(saveDto.getProfessionName());
 
         Person person = personRepository.findById(id)
                 .orElseThrow(()-> new NoSuchElementException("Person with id: %d not found".formatted(id)));
@@ -53,6 +52,8 @@ public class PersonServiceImpl implements PersonService {
         person.setName(saveDto.getName());
         person.setAge(saveDto.getAge());
         person.setProfession(profession);
+
+        Person person1 = personRepository.save(person);
 
         return personRepository.save(person).getId();
     }

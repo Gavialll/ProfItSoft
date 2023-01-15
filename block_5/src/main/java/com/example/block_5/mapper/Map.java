@@ -4,7 +4,6 @@ import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.ProfessionInfoDto;
 import com.example.block_5.model.Person;
 import com.example.block_5.model.Profession;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component

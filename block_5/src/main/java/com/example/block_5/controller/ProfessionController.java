@@ -1,7 +1,6 @@
 package com.example.block_5.controller;
 
 import com.example.block_5.dto.ProfessionInfoDto;
-import com.example.block_5.model.Profession;
 import com.example.block_5.service.ProfessionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
