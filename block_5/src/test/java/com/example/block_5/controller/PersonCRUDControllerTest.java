@@ -2,6 +2,7 @@ package com.example.block_5.controller;
 
 import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.PersonSaveDto;
+import com.example.block_5.dto.Response;
 import com.example.block_5.mapper.Map;
 import com.example.block_5.model.Person;
 import com.example.block_5.repository.PersonRepository;
@@ -11,6 +12,7 @@ import org.junit.jupiter.api.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.web.servlet.MockMvc;
@@ -18,7 +20,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.NoSuchElementException;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.*;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
@@ -40,6 +43,7 @@ class PersonCRUDControllerTest {
     private MockMvc mockMvc;
 
     @Test
+    @Sql("schema.sql")
     @Sql("Profession.sql")
     @Order(1)
     @DisplayName("Add Person")
@@ -55,20 +59,23 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("1"));
-
-
-        Person expected = new Person(1L, "Test", 45, professionRepository.findByName("Doctor"));
-        Person actual = personRepository.findById(1L).get();
+        Response.Ok actual = objectMapper.readValue(json, Response.Ok.class);
+        Response.Ok expected = new Response.Ok(HttpStatus.CREATED, 1L);
 
         assertEquals(expected, actual);
+
+
+        Person expectedP = new Person(1L, "Test", 45, professionRepository.findByName("Doctor"));
+        Person actualP = personRepository.findById(1L).get();
+
+        assertEquals(expectedP, actualP);
     }
 
     @Test
     @Order(2)
     @DisplayName("Add Profession not found")
     void addThrow() throws Exception {
-        PersonSaveDto newPerson = new PersonSaveDto("Test", 45, "Pam-Pam");
+        PersonSaveDto newPerson = new PersonSaveDto("Test", 45, "PamPam");
 
         String json = mockMvc.perform(post("/api/person")
                         .content(objectMapper.writeValueAsString(newPerson))
@@ -79,7 +86,14 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("Profession with name: Pam-Pam not found"));
+        Response.Error actualResponse = objectMapper.readValue(json, Response.Error.class);
+        Response.Error expectedResponse = new Response.Error(
+                HttpStatus.NOT_FOUND.value(),
+                HttpStatus.NOT_FOUND.getReasonPhrase(),
+                "Profession with name: PamPam not found"
+                );
+
+        assertEquals(expectedResponse, actualResponse);
     }
 
     @Test
@@ -111,7 +125,14 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("Person with id: 99999999 not found"));
+        Response.Error actualResponse = objectMapper.readValue(json, Response.Error.class);
+        Response.Error expectedResponse = new Response.Error(
+                HttpStatus.NOT_FOUND.value(),
+                HttpStatus.NOT_FOUND.getReasonPhrase(),
+                "Person with id: 99999999 not found"
+        );
+
+        assertEquals(expectedResponse, actualResponse);
     }
 
     @Test
@@ -134,7 +155,10 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("1"));
+        Response.Ok actualResponse = objectMapper.readValue(json, Response.Ok.class);
+        Response.Ok expectedResponse = new Response.Ok(HttpStatus.OK, 1L);
+
+        assertEquals(expectedResponse, actualResponse);
 
         //new person
         expected = new Person(1L, "TestUpdate", 12, professionRepository.findById(2L).get());
@@ -154,7 +178,15 @@ class PersonCRUDControllerTest {
                 .andReturn()
                 .getResponse()
                 .getContentAsString();
-        assertTrue(json.contains("Person with id: 99999999 not found"));
+
+        Response.Error actualResponse = objectMapper.readValue(json, Response.Error.class);
+        Response.Error expectedResponse = new Response.Error(
+                HttpStatus.NOT_FOUND.value(),
+                HttpStatus.NOT_FOUND.getReasonPhrase(),
+                "Person with id: 99999999 not found"
+        );
+
+        assertEquals(expectedResponse, actualResponse);
     }
     @Test
     @Order(7)
@@ -165,7 +197,7 @@ class PersonCRUDControllerTest {
                                         new PersonSaveDto(
                                                 "TestUpdate",
                                                 12,
-                                                "Pam-Pam")
+                                                "PamPam")
                                 )
                         )
                         .contentType(MediaType.APPLICATION_JSON)
@@ -174,7 +206,15 @@ class PersonCRUDControllerTest {
                 .andReturn()
                 .getResponse()
                 .getContentAsString();
-        assertTrue(json.contains("Profession with name: Pam-Pam not found"));
+
+        Response.Error actualResponse = objectMapper.readValue(json, Response.Error.class);
+        Response.Error expectedResponse = new Response.Error(
+                HttpStatus.NOT_FOUND.value(),
+                HttpStatus.NOT_FOUND.getReasonPhrase(),
+                "Profession with name: PamPam not found"
+        );
+
+        assertEquals(expectedResponse, actualResponse);
     }
 
     @Test
@@ -187,7 +227,10 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("1"));
+        Response.Ok actualResponse = objectMapper.readValue(json, Response.Ok.class);
+        Response.Ok expectedResponse = new Response.Ok(HttpStatus.OK, 1L);
+
+        assertEquals(expectedResponse, actualResponse);
 
         assertThrows(NoSuchElementException.class, ()-> personRepository.findById(1L).get());
     }
@@ -202,6 +245,14 @@ class PersonCRUDControllerTest {
                 .getResponse()
                 .getContentAsString();
 
-        assertTrue(json.contains("Person with id: 99999999 not found"));
+
+        Response.Error actualResponse = objectMapper.readValue(json, Response.Error.class);
+        Response.Error expectedResponse = new Response.Error(
+                HttpStatus.NOT_FOUND.value(),
+                HttpStatus.NOT_FOUND.getReasonPhrase(),
+                "Person with id: 99999999 not found"
+        );
+
+        assertEquals(expectedResponse, actualResponse);
     }
 }

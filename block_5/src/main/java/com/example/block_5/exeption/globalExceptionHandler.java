@@ -1,9 +1,7 @@
 package com.example.block_5.exeption;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
+import com.example.block_5.dto.Response;
 import jakarta.validation.ConstraintViolationException;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -43,16 +41,7 @@ public class globalExceptionHandler {
         }
 
         private static ResponseEntity<Object> buildErrorResponse(HttpStatus httpStatus, String message) {
-            ErrorResponse response = new ErrorResponse(httpStatus.value(), httpStatus.getReasonPhrase(), message);
-            return ResponseEntity.status(httpStatus.value()).body(response);
-        }
-
-        @Getter
-        @AllArgsConstructor
-        @JsonInclude(JsonInclude.Include.NON_NULL)
-        static class ErrorResponse {
-            private int status;
-            private String error;
-            private String message;
+            Response.Error error = new Response.Error(httpStatus.value(), httpStatus.getReasonPhrase(), message);
+            return ResponseEntity.status(httpStatus.value()).body(error);
         }
 }

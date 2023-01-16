@@ -65,11 +65,10 @@ public class PersonSearchControllerTest {
     @Test
     @Order(2)
     @DisplayName("Get first page of 'Person'")
-    void getPageOne() throws Exception {
-        // TODO: 12.01.2023 You must change it. You must get first page
-        long page = 0L;
-        long size = 10L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(page, size)))
+    void getPageFirst() throws Exception {
+        long from = 0L;
+        long size = 3L;
+        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(from, size)))
                 .andExpect(status().isOk())
                 .andReturn()
                 .getResponse()
@@ -77,9 +76,11 @@ public class PersonSearchControllerTest {
 
         List<PersonInfoDto> actual = objectMapper
                 .readValue(json, objectMapper.getTypeFactory().constructCollectionType(List.class, PersonInfoDto.class));
-        List<PersonInfoDto> expected = personRepository.findAll()
-                .stream()
-                .map(Map::mapToPersonInfo)
+        List<PersonInfoDto> expected = Stream.of(
+                        personRepository.findById(1L).get(),
+                        personRepository.findById(2L).get(),
+                        personRepository.findById(3L).get()
+                ).map(Map::mapToPersonInfo)
                 .collect(Collectors.toList());
 
         assertEquals(expected, actual);
@@ -88,11 +89,10 @@ public class PersonSearchControllerTest {
     @Test
     @Order(3)
     @DisplayName("Get second page of 'Person'")
-    void getPageTwo() throws Exception {
-        // TODO: 12.01.2023 You must change it. You must get second page
-        long page = 1L;
+    void getPageSecond() throws Exception {
+        long from = 3L;
         long size = 3L;
-        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(page, size)))
+        String json = mockMvc.perform(get("/api/person?from=%d&size=%d".formatted(from, size)))
                 .andExpect(status().isOk())
                 .andReturn()
                 .getResponse()
@@ -103,9 +103,9 @@ public class PersonSearchControllerTest {
 
         @SuppressWarnings("all")
         List<PersonInfoDto> expected = Stream.of(
-                        personRepository.findById(2L).get(),
-                        personRepository.findById(3L).get(),
-                        personRepository.findById(4L).get()
+                        personRepository.findById(4L).get(),
+                        personRepository.findById(5L).get(),
+                        personRepository.findById(6L).get()
                 ).map(Map::mapToPersonInfo)
                 .collect(Collectors.toList());
 

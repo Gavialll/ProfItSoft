@@ -2,6 +2,7 @@ package com.example.block_5.controller;
 
 import com.example.block_5.dto.PersonInfoDto;
 import com.example.block_5.dto.PersonSaveDto;
+import com.example.block_5.dto.Response;
 import com.example.block_5.service.PersonService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -22,8 +23,9 @@ public class PersonCRUDController {
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     @Operation(summary = "Create person")
-    public Long add(@Valid @RequestBody PersonSaveDto saveDto){
-        return personService.add(saveDto);
+    public Response.Ok add(@Valid @RequestBody PersonSaveDto saveDto){
+        Long id = personService.add(saveDto);
+        return new Response.Ok(HttpStatus.CREATED, id);
     }
 
     @GetMapping("/{id}")
@@ -34,13 +36,15 @@ public class PersonCRUDController {
 
     @PatchMapping("/{id}")
     @Operation(summary = "Patch Person")
-    public Long update(@PathVariable Long id, @Valid @RequestBody PersonSaveDto saveDto){
-        return personService.update(id, saveDto);
+    public Response.Ok update(@PathVariable Long id, @Valid @RequestBody PersonSaveDto saveDto){
+        Long personId = personService.update(id, saveDto);
+        return new Response.Ok(HttpStatus.OK, personId);
     }
 
     @DeleteMapping("/{id}")
     @Operation(summary = "Delete Person")
-    public Long delete(@PathVariable Long id){
-        return personService.delete(id);
+    public Response.Ok delete(@PathVariable Long id){
+        Long personId = personService.delete(id);
+        return new Response.Ok(HttpStatus.OK, personId);
     }
 }
