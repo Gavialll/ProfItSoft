@@ -17,5 +17,4 @@ public class Block5Application {
         SpringApplication.run(Block5Application.class, args);
         log.info("Swagger: http://localhost:8080/swagger-ui/index.html");
     }
-
 }

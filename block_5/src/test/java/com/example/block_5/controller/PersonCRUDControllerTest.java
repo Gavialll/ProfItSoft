@@ -146,8 +146,10 @@ class PersonCRUDControllerTest {
         assertEquals(expected, actual);
 
         //update person
+        PersonSaveDto personSaveDto = new PersonSaveDto("TestUpdate", 12, "Law");
+
         String json = mockMvc.perform(patch("/api/person/1")
-                        .content(objectMapper.writeValueAsString(new PersonSaveDto("TestUpdate", 12, "Law")))
+                        .content(objectMapper.writeValueAsString(personSaveDto))
                         .contentType(MediaType.APPLICATION_JSON)
                 )
                 .andExpect(status().isOk())
@@ -170,8 +172,10 @@ class PersonCRUDControllerTest {
     @Order(6)
     @DisplayName("Update Person not found")
     void updateThrowPerson() throws Exception {
+        PersonSaveDto personSaveDto = new PersonSaveDto("TestUpdate", 12, "Law");
+
         String json = mockMvc.perform(patch("/api/person/99999999")
-                        .content(objectMapper.writeValueAsString(new PersonSaveDto("TestUpdate", 12, "Law")))
+                        .content(objectMapper.writeValueAsString(personSaveDto))
                         .contentType(MediaType.APPLICATION_JSON)
                 )
                 .andExpect(status().isNotFound())
