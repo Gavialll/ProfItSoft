@@ -13,9 +13,5 @@ public interface PersonRepository extends JpaRepository<Person, Long> {
     @Query(value = "SELECT * FROM person LIMIT ?1, ?2",
     nativeQuery = true)
     List<Person> getPage(Long from, Long size);
-
-//    @Query(value = "SELECT * FROM person LIMIT ?1, ?2",
-//            nativeQuery = true)
-
     List<Person> findAllByNameAndProfessionName(String name, String professionName, Pageable pageable);
 }
