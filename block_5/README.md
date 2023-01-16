@@ -1,5 +1,5 @@
 Swagger documentation
-URL - http://localhost:8080/swagger-ui/index.html#/
+URL - http://localhost:8080/swagger-ui/index.html
 
 Обрати предметну область на свій розсуд. Книги, Товари, Клієнти, Туризм, або ін. (окрім "Студентів").
 В рамках предметної області повинно бути 2 сутності, що співвідносяться одне до одного 
