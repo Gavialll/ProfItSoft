@@ -4,9 +4,6 @@ import {ButtonGroup} from "@material-ui/core";
 import '../style/button.css'
 
 class ButtonLine extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         const {values, click, status} = this.props

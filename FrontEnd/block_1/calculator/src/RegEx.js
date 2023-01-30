@@ -1,4 +1,4 @@
-// '2 + 2 = '
+// '2 (+-*/) 2 = ' or '2.5 (+-*/) 2 = '
 export const STATEMENT_IS_CORRECT = /^-*(\d+\.*\d*)\s+[/*+-]\s+-*\d+\s+[/*+\-=]\s+$/
 // '2 = '
 export const STATEMENT_IS_BAD = /^-*\d+\s*=\s*$/

@@ -4,9 +4,7 @@ import HistoryDisplay from "./HistoryDisplay";
 import OutputDisplay from "./OutputDisplay";
 
 class Display extends Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
         const {outputValue, historyArray} = this.props
         return (

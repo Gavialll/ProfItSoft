@@ -2,9 +2,7 @@ import React, {Component} from 'react';
 import ButtonLine from "./ButtonLine";
 
 class Buttons extends Component {
-    constructor(props) {
-        super(props);
-    }
+
     render() {
         const {buttonsValue, status, returnValue} = this.props
         return (
