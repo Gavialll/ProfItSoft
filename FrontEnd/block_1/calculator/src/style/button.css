@@ -1,0 +1,16 @@
+.MuiButton-root.button{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    color: black;
+}
+.MuiButtonGroup-root.group{
+    width: 100%;
+}
+.MuiButton-root.buttonOther{
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    color: black;
+}
+

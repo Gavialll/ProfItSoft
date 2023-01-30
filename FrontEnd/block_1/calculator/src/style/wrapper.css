@@ -1,0 +1,10 @@
+.wrapper{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    width: 250px;
+    height: max-content;
+    border-radius: 4px;
+    border: 1px solid black;
+}
