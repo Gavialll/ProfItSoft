@@ -35,6 +35,15 @@ public class FileController {
     @Autowired
     private Config client;
 
+    /**
+     * У мене є декілька запитань по методу "uploadFile"
+     * Я зберігаю json обєкти зразу в БД без перетворення в Person.class
+     * Так як в файлі поля можуть відрізнятися
+     * На зберігання БД витрачається багато часу а також
+     * якщо я хочу збільшити розмір List який я зберігаю я отримую помилку
+     * SocketTimeoutException: 5,000 milliseconds timeout.
+     * Чи може така поведінка бути звязана з потужністю мого ПК чи всетаки проблеми в написанні
+     * */
     @ResponseStatus(HttpStatus.OK)
     @PostMapping("/upload")
     public Response.Status uploadFile(@RequestParam("file") MultipartFile zipFile) throws IOException {
